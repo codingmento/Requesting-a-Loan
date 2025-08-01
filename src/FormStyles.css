@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -100px;
 }
 
 #modal {
@@ -62,7 +63,35 @@ hr {
 .disabled {
   background: rgb(178, 9, 190) !important;
 }
-.disabled:hover{
+
+.disabled:hover {
   background: rgb(75, 4, 81);
   cursor: progress;
+}
+
+@media(max-width:620px) {
+  .flex {
+    
+min-width: 400px;
+    min-height: 200px;
+
+  }
+
+  
+
+
+
+}
+@media(max-width:470px) {
+  .flex {
+    margin: -120px 40px;
+max-width: 100px;
+    min-height: 200px;
+
+  }
+
+  
+
+
+
 }
